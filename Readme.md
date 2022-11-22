@@ -1,6 +1,4 @@
-# Assignment 2
-Name - Debarghya Datta  
-Roll - 12210310
+# Minimal C
 
 ## Requirements
 - flex
@@ -12,8 +10,8 @@ Roll - 12210310
 3. Constants: Integer, float, string, and character literals
 4. Operators: +,-,*,/,++,--
 5. Statements:
-- Simple statements, break, and return
-- Control flow: if-else, if-else if, while, for
+	- Simple statements, break, and return
+	- Control flow: if-else, if-else if, while, for
 6. Comments: Single-line (//) and multi-line (/*.. */)
 
 ## Execution
