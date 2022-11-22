@@ -75,7 +75,7 @@
 int yylex();
 void yyerror();
 
-#line 79 "syntax.c"
+#line 79 "src/syntax.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -545,13 +545,13 @@ static const yytype_int8 yytranslate[] =
 /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_uint8 yyrline[] =
 {
-       0,    25,    25,    26,    30,    31,    35,    36,    40,    41,
-      45,    46,    50,    54,    55,    56,    57,    61,    62,    66,
-      67,    71,    72,    73,    74,    75,    79,    80,    84,    85,
-      86,    90,    91,    92,    96,    97,    98,   102,   103,   104,
-     108,   109,   113,   114,   118,   119,   120,   121,   122,   123,
-     127,   128,   132,   133,   137,   138,   139,   143,   144,   145,
-     146
+       0,    24,    24,    25,    29,    30,    34,    35,    39,    40,
+      44,    45,    49,    53,    54,    55,    56,    60,    61,    65,
+      66,    70,    71,    72,    73,    74,    78,    79,    83,    84,
+      85,    89,    90,    91,    95,    96,    97,   101,   102,   103,
+     107,   108,   112,   113,   117,   118,   119,   120,   121,   122,
+     126,   127,   131,   132,   136,   137,   138,   142,   143,   144,
+     145
 };
 #endif
 
@@ -1470,7 +1470,7 @@ yyreduce:
   switch (yyn)
     {
 
-#line 1474 "syntax.c"
+#line 1474 "src/syntax.c"
 
       default: break;
     }
@@ -1694,7 +1694,7 @@ yyreturnlab:
   return yyresult;
 }
 
-#line 150 "analyzer.y"
+#line 149 "analyzer.y"
 
 
 extern int column;

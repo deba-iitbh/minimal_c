@@ -1,10 +1,10 @@
-lexer.c: *.l
+src/lexer.c: *.l
 	flex -o $@ -v $<
 
-syntax.c: *.y
+src/syntax.c: *.y
 	bison -d -Wcounterexamples -o $@ $<
 
-compiler: syntax.c lexer.c
-	gcc syntax.c lexer.c -o $@
+compiler: src/syntax.c src/lexer.c
+	gcc src/syntax.c src/lexer.c -o $@
 
 .PHONY: compiler
